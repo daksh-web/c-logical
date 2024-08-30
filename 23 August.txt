@@ -1,0 +1,150 @@
+23 August
+#include <stdio.h>
+
+int main()
+{
+   int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10){
+       int num;
+       printf("enter the number");
+       scanf("%d",&num);
+       if(num%6==0){
+           printf("the number is divisible by 6");
+       }
+           else{
+               printf("the number is not divisible by 6");
+           }
+        }
+    else{
+        printf("the number is not greater than 10");
+    }
+    return 0;
+}
+——————————————————————————————————————————————————————————————————————————————————————————————————
+#include<stdio.h>
+int main(){
+    
+    char a;
+    printf("enter any single character");
+    scanf("%c",&a);
+    if(a=='e'){
+        
+        int num;
+        printf("enter any number");
+        scanf("%d",&num);
+        if(num%2==0){
+            printf("even number");
+        }
+        else{
+            printf("odd number");
+        }
+    }
+  
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+—————————————————————————————————————————————————————————————————————————————————————
+#include <stdio.h>
+
+int main()
+{
+   char a;
+    printf("enter any single character");
+    scanf("%c",&a);
+    if(a=='j'){
+        printf("january");
+    }
+    else if(a=='f'){
+        printf("feburary");
+    }
+    else if(a=='m'){
+        printf("march");
+    }
+    else if(a=='a'){
+        printf("april");
+    }
+        else if(a=='z'){
+        printf("may");
+    }
+  else if(a=='y'){
+        printf("june");
+    }
+    else if(a=='x'){
+        printf("july");
+    }
+    else if(a=='w'){
+        printf("aug");
+    }
+    else if(a=='s'){
+        printf("september");
+    }
+    else if(a=='o'){
+        printf("octuber");
+    }
+    else if(a=='n'){
+        printf("november");
+    }
+    else if(a=='d'){
+        printf("decmber");
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+———————————————————————————————————————————————————————————————————————————————————
+
+#include <stdio.h>
+
+int main()
+{
+   char a;
+    printf("enter any single character");
+    scanf("%c",&a);
+    if(a=='m'){
+        printf("monday");
+    }
+    else if(a=='t'){
+        printf("tuesday");
+    }
+    else if(a=='w'){
+        printf("wed");
+    }
+    else if(a=='z'){
+        printf("thur");
+    }
+        else if(a=='f'){
+        printf("fri");
+    }
+  else if(a=='s'){
+        printf("sat");
+    }
+    
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+————————————————————————————————————————————————————————————————————————————————————
+
+#include <stdio.h>
+
+int main()
+{
+   int num;
+    printf("enter age");
+    scanf("%d",&num);
+    if(num>=18){
+        printf("valid for voter id");
+    }
+    
+    else{
+        printf("not valid for voter id ");
+    }
+    return 0;
+}
+————————————————————————————————————————————————————————————————————————————————————

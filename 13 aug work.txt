@@ -1,0 +1,76 @@
+******************************************************************************/
+#include <stdio.h>
+
+int main()
+{  float a=1.2;
+   float b=6.7;
+   float c=4.5;
+   int d=2;
+   float result=a*b-c/d;
+   printf("%f",result);
+   return 0;}
+_________________________________________________________________________
+
+int main()
+{  float a=1.6;
+   int b=(12-2);
+   int c=2;
+   float d=7.8;
+   float e=1.5;
+   float result=a*b/c+d-e;
+   printf("%f",result);
+   return 0;
+________________________________________________________________________
+
+int main()
+{  float a=4.5;
+   float b=1.2;
+   int c=(82/2);
+   float d=5.6;
+   float e=1.234;
+   float result=a*b-c-d+e;
+   printf("%f",result);
+   return 0;
+________________________________________________________________________
+#include <stdio.h>
+
+int main()
+{  int a=8;
+   int b=1;
+   int c=(4-2);
+   int d=1;
+   int e=6;
+   float result=a*b+c/d+e;
+   printf("%f",result);
+   return 0;
+________________________________________________________________________
+include <stdio.h>
+
+int main()
+{ float a=3.4;
+  float b=1.2;
+  float c=(3.7-1.2);
+  int d=2;
+  float e=6.8;
+  float result=a+b*c/d+e;
+    printf("%f",result);
+
+    return 0;
+}
+________________________________________________________________________
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{ float a=8.9;
+  float b=1.67;
+  float c=(6.21-5.6);
+  float d=7.8;
+  int e=34;
+  int f=157;
+  float result=a*b-c+d-e+f;
+    printf("%f",result);
+
+    return 0;
+}
+________________________________________________________________________
